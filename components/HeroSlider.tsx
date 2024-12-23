@@ -46,7 +46,7 @@ const HeroSlider = () => {
             >
                 <CustomButton
                 text="Get started"
-                containerStyles="w-[196px] h-[62px]"
+                containerStyles="w-[196px] h-[62px] rounded-md"
                 />
             </motion.div>
            
@@ -84,7 +84,7 @@ const HeroSlider = () => {
             >
                 <CustomButton
                 text="Get started"
-                containerStyles="w-[196px] h-[62px]"
+                containerStyles="rounded-md w-[196px] h-[62px]"
                 />
             </motion.div>
            
@@ -95,9 +95,9 @@ const HeroSlider = () => {
       {/* Swipper nav buttons */}
       <SwipperNavButtons 
         containerStyles="absolute bottom-2 lg:bottom-0 right-0 h-[130px] w-full lg:w-[700px]
-        z-50 flex justify-center lg:justify-start gap-1" 
+        z-50 flex justify-center lg:justify-start gap-1 rounded-md" 
         btnStyles="border border-accent text-white w-[56px] h-[56px] flex 
-            justify-center items-center hover:bg-accent transition-all duration-300"  
+            justify-center items-center hover:bg-accent transition-all duration-300 rounded-md"  
         iconStyles="text-2xl" 
       />
     </Swiper>

@@ -75,7 +75,7 @@ const Classes = () => {
                   viewport={{ once: false, amount: 0.2 }}
                 >
                   <CustomButton 
-                    containerStyles="w-[164px] h-[46px]" 
+                    containerStyles="w-[164px] h-[46px] rounded-md" 
                     text="Read more" 
                   />
                 </motion.div>
